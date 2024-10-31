@@ -31,7 +31,7 @@ During initial setup, I am unable to connect to "start.local".
 
 #. On macOS, confirm your browser is allowed to access local network devices at:
 
-    - Settings --> Privacy & Security --> Local Network
+    - Settings -> Privacy & Security -> Local Network
 
 #. To avoid networking issues, it is recommended to use your `primary` router, not an extender or mesh router
 #. Very rarely, your firewall settings may block mDNS. In this case:
