@@ -51,4 +51,18 @@ Complete this guide to trust your server's Root Certificate Authority (Root CA) 
 
     .. tip:: If the keychain console did not show the certificate as trusted, press "Command + spacebar" and type “Keychain Access”, and hit enter to re-open it.
 
-#. If using Firefox or TorBrowser, complete :ref:`this final step <ca-ff>`
+#. From macOS Sequoia (15) onwards, you'll need to allow your preferred browser to find devices on local networks.
+
+    - When you first use software on your Mac that wants to access the local network (either after you upgrade to Sequoia or whenever you run new software you have just installed) you'll be asked whether to allow local network access. Click **Allow**.
+
+        .. figure:: /_static/images/ssl/macos/sequoia-local-access.png
+            :width: 20%
+            :alt: Sequoia LAN access
+
+    - If you denied access at some point in the past and no longer have this option pop up for you, go to **Settings** then **Privacy & Security** then **Local Network** and finally toggle on the browser(s) you want to use.
+
+        .. figure:: /_static/images/ssl/macos/sequoia-local-access-settings.png
+            :width: 60%
+            :alt: Sequoia LAN access
+
+#. If using Firefox or Tor Browser, complete :ref:`this final step <ca-ff>`.

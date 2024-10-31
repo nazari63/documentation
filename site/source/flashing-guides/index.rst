@@ -18,6 +18,7 @@ Download the latest version of StartOS to flash to a USB thumb drive (x86) or to
 
     os-pi
     os-x86
+
 ____________
 
 Firmware only
