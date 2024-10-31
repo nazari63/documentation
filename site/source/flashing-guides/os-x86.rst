@@ -13,15 +13,15 @@ Visit the `Github release page <https://github.com/Start9Labs/start-os/releases/
 
 At the bottom of the page, under "Assets," download the ``x86_64.iso`` or ``x86_64-nonfree.iso`` file.
 
--------------------------
+---------------------------
 Server Pure (*x86_64.iso*)
--------------------------
+---------------------------
 
 The ``x86_64.iso`` image contains no proprietary software and is built especially for the Server Pure.
 
--------------------------------
+----------------------------------
 Server One (*x86_64-nonfree.iso*)
--------------------------------
+----------------------------------
 
 The ``x86_64-nonfree.iso`` image contains non-free (closed-source) software. This is needed for the Server One and most DIY hardware, especially for graphics and/or network device support. 
 
