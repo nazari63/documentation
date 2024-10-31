@@ -26,8 +26,12 @@ During initial setup, I am unable to connect to "start.local".
 #. Confirm you are `not` using the Tor Browser.
 #. Confirm your phone/computer is not using a VPN, or that if you are, that it allows LAN connections, such as the examples below:
 
-    - Mullvad - Go to "Settings -> VPN Settings -> Local Network Sharing"
-    - ProtonVPN - Go to "Preferences -> Connection -> Allow LAN Connections"
+    - Mullvad - Go to Settings -> VPN Settings -> Local Network Sharing
+    - ProtonVPN - Go to Preferences -> Connection -> Allow LAN Connections
+
+#. On macOS, confirm your browser is allowed to access local network devices at:
+
+    - Settings --> Privacy & Security --> Local Network
 
 #. To avoid networking issues, it is recommended to use your `primary` router, not an extender or mesh router
 #. Very rarely, your firewall settings may block mDNS. In this case:
@@ -50,6 +54,7 @@ I am unable to reach my server via its *<custom-address>.local* (LAN) address
 
 #. Make sure you have successfully followed the :ref:`connecting-lan` instructions for your device.
 #. If you are using Windows, the problem is almost certainly with Bonjour. Follow the :ref:`directions to reinstall <connecting-lan-windows>`, even if you have already done so.
+#. If you are using macOS, confirm your browser is allowed to access local network devices at: Settings --> Privacy & Security --> Local Network
 #. If using Firefox from Mac, Windows or Android, ensure you have set ``security.enterprise_roots.enable`` to ``true`` in ``about:config`` per the :ref:`instructions<ca-ff>`
 #. Try connecting using your server's IP address or Tor address. If this works, it means your issue is specific to .local. Try clearing your browser cache and/or restarting your phone/laptop/router. If all fails, try restarting your server.
 #. Try connecting using a different browser on the same device. If this works, it means you need to clear cache on your current browser.
