@@ -139,3 +139,4 @@ http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html
 http://www.siafoo.net/help/reST
 http://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html
 https://sublime-and-sphinx-guide.readthedocs.io/en/latest/lists.html
+This project is a demonstration of blockchain technology and smart contract integration.
